@@ -3,6 +3,7 @@ import CTA from "./CTA";
 import ME from "../../assets/me.png";
 
 import "./Header.css";
+import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         <h1>Jane Doe</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <CTA />
+        <HeaderSocials />
 
         <div className="me">
           <img src={ME} alt="me" />
